@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %></title>
+    <%- include('partials/head.html') %>
+</head>
+
+<body>
+    <%- include('partials/navigation.html') %>
+    <!--prueba-->
+    <div class="contenedor">
+        <section class="contenido-header">
+            <section class="textos-header">
+                <h1>Un chatbot diferente</h1>
+                <p>Motibot es un chatbot capaz de hablar con el usuario de distintos problemas brindandole atención y
+                    una nueva perspectiva</p>
+                <a href="/motibot">Prueba ahora</a>
+            </section>
+            <img src="img/logobot2.png" alt="">
+        </section>
+    </div>
+    <!--prueba-->
+
+    <!--Seccion uno-->
+    <div class="container-fluid" id="about">
+        <div class="row bg-dark text-white p-5 text-center">
+            <div class="col-sm-6">
+                <i class="fas fa-hands-helping fa-10x"> </i>
+            </div>
+            <div class="col-sm-6">
+                <h3>Motibot </h3>
+                <p> Motibot no busca sustituir a los profesionales, diagnósticar ni dar tratamientos o servicios de
+                    salud mental. Siempre acude con un médico para cualquier pregunta que tengas relacionada a
+                    tu salud. No ignores el consejo de un médico o dejes de buscar ayuda profesional.</p>
+            </div>
+        </div>
+    </div>
+
+    <section class="about-us">
+        <div class="contenedor1">
+            <h2 class="titulo">Estamos para ayudarte</h2>
+            <div class="contenedor-articulo">
+                <div class="articulo aos-init aos-animate" data-aos="zoom-in-right">
+                    <i class="fas fa-robot" aria-hidden="true"></i>
+                    <h3>¿Que buscamos con motibot?</h3>
+                    <p>Buscamos ser una herramienta capaz de estar con nuestros usuarios, apoyarlos en los malos momentos y hacer que se
+                        sientan mejor </p>
+                    <a href="/motibot">Más información ---&gt;</a>
+                </div>
+                <div class="articulo aos-init aos-animate" data-aos="zoom-in-right">
+                    <i class="fas fa-ad" aria-hidden="true"></i>
+                    <h3>Contenido</h3>
+                    <p>Con motibot utilizamos la terapia cognitiva(TCC) enfocada en la vinculación del pensamiento y la
+                        conducta, y que recogen los aportes de distintas corrientes dentro de la psicología científica
+                    </p>
+                    <a href="motibot">Más información ---&gt;</a>
+                </div>
+                <div class="articulo aos-init aos-animate" data-aos="zoom-in-right">
+                    <i class="fas fa-question-circle" aria-hidden="true"></i>
+                    <h3>Ayuda</h3>
+                    <p>Sabemos que cada problema es diferente, sientase libre de consultar los siguientes numeros</p>
+                    <a href="/ayuda">Más información ---&gt;</a>
+                </div>
+
+                <div class="col-lg-12 text-center">
+                    <img src="/img/comingsoon.png" alt="">
+                </div>
+                <%- include('partials/footer.html') %>
+</body>
+
+</html>
